@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboards Nacionales</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" type="image/png" href="file:///D:/Usuarios/jscardona/OneDrive%20-%20Corporativo/Documentos/prueba%20web/soll-fav.png">
+</head>
+<body>
+
+  <header>
+    <h1>📊 Dashboards Nacionales</h1>
+    <br>
+    <input type="text" id="search" placeholder="Buscar dashboard...">
+  </header>
+
+    <div class="menu-acordeon">
+  <button class="menu-btn">☰ Menú</button>
+  <div class="menu-contenido">
+    <a href="index.html">Inicio</a>
+    <a href="Internacionales.html">Informes Internacionales</a>
+    <a href="Delichicks.html">Informes Delichicks</a>
+  </div>
+</div>
+
+  <main>
+    <h2>Informes en Excel</h2>
+    <div class="grid">
+
+       <div class="custom-card" data-name="Plan de Mercadeo" title="Seguimiento mensual del plan de mercadeo">
+        <a href="https://goo.su/T7luDg3" target="_blank" class="btn custom-btn"><i class="fas fa-chart-line"></i> Ejecución de viajes</a>
+        <small>Informe de seguimiento ejecución de viajes VP mercadeo.</small>
+      </div>
+
+      
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
